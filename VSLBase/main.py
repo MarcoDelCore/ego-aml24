@@ -156,7 +156,7 @@ def main(configs, parser):
                 # compute logits
                 start_logits, end_logits = model(
                     word_ids, char_ids, vfeats, video_mask, query_mask
-                )                
+                )
                 loc_loss = model.compute_loss(
                     start_logits, end_logits, s_labels, e_labels
                 )

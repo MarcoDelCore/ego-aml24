@@ -1,5 +1,5 @@
 """
-Layers to construct the VSLNet model.
+Layers to construct the VSLBase model.
 """
 import math
 
@@ -391,45 +391,6 @@ class CQAttention(nn.Module):
         subres2 = torch.matmul(context * self.w4mlu, query.transpose(1, 2))
         res = subres0 + subres1 + subres2  # (batch_size, c_seq_len, q_seq_len)
         return res
-
-
-class WeightedPool(nn.Module):
-    def __init__(self, dim):
-        super(WeightedPool, self).__init__()
-        weight = torch.empty(dim, 1)
-        nn.init.xavier_uniform_(weight)
-        self.weight = nn.Parameter(weight, requires_grad=True)
-
-    def forward(self, x, mask):
-        alpha = torch.tensordot(
-            x, self.weight, dims=1
-        )  # shape = (batch_size, seq_length, 1)
-        alpha = mask_logits(alpha, mask=mask.unsqueeze(2))
-        alphas = nn.Softmax(dim=1)(alpha)
-        pooled_x = torch.matmul(x.transpose(1, 2), alphas)  # (batch_size, dim, 1)
-        pooled_x = pooled_x.squeeze(2)
-        return pooled_x
-
-
-class CQConcatenate(nn.Module):
-    def __init__(self, dim):
-        super(CQConcatenate, self).__init__()
-        self.weighted_pool = WeightedPool(dim=dim)
-        self.conv1d = Conv1D(
-            in_dim=2 * dim, out_dim=dim, kernel_size=1, stride=1, padding=0, bias=True
-        )
-
-    def forward(self, context, query, q_mask):
-        pooled_query = self.weighted_pool(query, q_mask)  # (batch_size, dim)
-        _, c_seq_len, _ = context.shape
-        pooled_query = pooled_query.unsqueeze(1).repeat(
-            1, c_seq_len, 1
-        )  # (batch_size, c_seq_len, dim)
-        output = torch.cat(
-            [context, pooled_query], dim=2
-        )  # (batch_size, c_seq_len, 2*dim)
-        output = self.conv1d(output)
-        return output
 
 
 class DynamicRNN(nn.Module):

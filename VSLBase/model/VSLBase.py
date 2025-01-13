@@ -9,7 +9,6 @@ from model.layers import (
     VisualProjection,
     FeatureEncoder,
     CQAttention,
-    CQConcatenate,
     ConditionedPredictor,
     BertEmbedding,
 )
@@ -67,7 +66,6 @@ class VSLBase(nn.Module):
         )
         # video and query fusion
         self.cq_attention = CQAttention(dim=configs.dim, drop_rate=configs.drop_rate)
-        self.cq_concat = CQConcatenate(dim=configs.dim)
         # conditioned predictor
         self.predictor = ConditionedPredictor(
             dim=configs.dim,
