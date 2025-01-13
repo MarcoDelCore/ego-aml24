@@ -1,0 +1,355 @@
+[
+    {
+        "video_uid": "1c7426ad-b6ba-4494-897c-537dd4a201e9",
+        "clip_uid": "0aca0078-b6ab-41fb-9dc5-a70b8ad137b2",
+        "annotation_uid": "d05845b4-cd60-4e38-b179-9b6c23ee6099",
+        "query": "What color was the hammer on the work table?",
+        "ground_truth": "The hammer is grey and orange."
+    },
+    {
+        "video_uid": "2fb3b1d4-1360-4a95-931b-936b4b962a42",
+        "clip_uid": "88dcb32f-a537-47de-b3bf-f9149352bbb9",
+        "annotation_uid": "c88853d6-2a4f-469b-8cea-5edc569c4104",
+        "query": "Who did I talk to at the workshop?",
+        "ground_truth": "I talked with a man."
+    },
+    {
+        "video_uid": "3ee7070a-fe81-49a9-97a2-902268af9985",
+        "clip_uid": "a40dce18-488d-4acc-b754-fcd56c204db1",
+        "annotation_uid": "69ff5b62-0df3-4a8f-aa16-e224d4aa549e",
+        "query": "How many onions was chopped?",
+        "ground_truth": "Two onions were chopped."
+    },
+    {
+        "video_uid": "3fc60e72-91ad-4320-bd07-1cf753f4a5f1",
+        "clip_uid": "740a9d13-cf77-4e7d-91b5-a3ebf6d270ec",
+        "annotation_uid": "ba973d7d-473e-4df9-955b-d590cd9436f8",
+        "query": "where is my phone?",
+        "ground_truth": "The phone is my hands."
+    },
+    {
+        "video_uid": "4ce119de-0f42-4bd1-b387-9e19643fdddc",
+        "clip_uid": "e1c79556-e8af-4e26-bc4c-633100277239",
+        "annotation_uid": "37236893-8514-4b68-9733-4fcea8ec3441",
+        "query": "What did I put in the pot",
+        "ground_truth": "Vegetable bouillon cube."
+    },
+    {
+        "video_uid": "4d89d233-dbcf-4ea2-a90f-9a2c3b42d1d5",
+        "clip_uid": "feaf7655-ad23-4150-9e9d-552c369db96d",
+        "annotation_uid": "090121f8-b755-49b0-bba2-a9eebf45c67c",
+        "query": "Where was the Orange Jerrycan?",
+        "ground_truth": "In the middle of the exit."
+    },
+    {
+        "video_uid": "4f035fa4-f388-4645-add7-89c4a0170099",
+        "clip_uid": "9c82fb4e-b385-46a8-b829-45723b17cdba",
+        "annotation_uid": "84f705f7-f4c0-42c0-925b-f37554504c86",
+        "query": "Did I leave the fridge open?",
+        "ground_truth": "Yes, I left the fridge open."
+    },
+    {
+        "video_uid": "6b6d73b9-e92c-4698-86df-bbe687a9e95e",
+        "clip_uid": "b704e90e-d433-4b13-9f78-f2194c5f3f57",
+        "annotation_uid": "9da625ed-2321-4823-81c8-6679d6468d18",
+        "query": "what color is the sofa ",
+        "ground_truth": "Light grey."
+    },
+    {
+        "video_uid": "9bf859f2-62ff-4f2e-9eb8-ef69feb4d343",
+        "clip_uid": "ca304360-2402-4241-a6eb-5ff2f300546f",
+        "annotation_uid": "e0c0f9ff-3269-4d7f-8ccb-9148867166d1",
+        "query": "what words were written on the box close to the wall?",
+        "ground_truth": "2 GAYZ 1H@NDLR & DOGO"
+    },
+    {
+        "video_uid": "30b9ff64-51c8-4481-ba6a-733ea2060aef",
+        "clip_uid": "1731de62-b1b9-4b84-bd55-412cd67e9b3c",
+        "annotation_uid": "058aa522-a4a2-4330-89c8-4d6091621de9",
+        "query": "What food did I eat?",
+        "ground_truth": "Rice with fried potatoes."
+    },
+    {
+        "video_uid": "53da674a-089d-428a-a719-e322b2de002b",
+        "clip_uid": "9ab5fd9f-77e4-4438-a546-a4b6ed889f1a",
+        "annotation_uid": "a86e7332-b57d-410a-85ba-45e5f2a29dca",
+        "query": "what did l put in the bucket",
+        "ground_truth": "Flour."
+    },
+    {
+        "video_uid": "69f1101f-cb9e-4ad1-8fe6-ed840e5bcf9b",
+        "clip_uid": "ed0a0e94-c79b-462d-a64b-238f26fd6fc6",
+        "annotation_uid": "312d4960-1288-4011-9896-05df5aee6c4c",
+        "query": "Who did i talk to at the ATM place ?",
+        "ground_truth": "I talked to a woman."
+    },
+    {
+        "video_uid": "94cdabf3-c078-4ad4-a3a1-c42c8fc3f4ad",
+        "clip_uid": "b01fdd44-357c-4566-b487-d9ff21e56c2e",
+        "annotation_uid": "7ae246f9-e526-454e-b655-ef0d9276fe22",
+        "query": "Did I wash the green pepper?",
+        "ground_truth": "Yes, I washed the green pepper."
+    },
+    {
+        "video_uid": "182dffe9-d2bf-4a7d-b1d8-137470f0143d",
+        "clip_uid": "cab983c1-d36e-4afa-8116-1e2bde4a4a4c",
+        "annotation_uid": "8bca6b25-cac7-4947-9cf0-2254113e8697",
+        "query": "In what location did i see the car?",
+        "ground_truth": "In a country side road."
+    },
+    {
+        "video_uid": "224c3de4-9683-462a-8eb4-224773425a7e",
+        "clip_uid": "2276090d-3aab-4a4f-afbe-dcc083604160",
+        "annotation_uid": "7fd6377f-dfe7-41fa-ad2a-9218e194a58f",
+        "query": "What seasoning did I use?",
+        "ground_truth": "Cream."
+    },
+    { 
+        "video_uid": "262fd2ec-8eba-44d9-8082-4d0574f7a515",
+        "clip_uid": "1138ced6-d580-4013-96bb-1e5c3fea62d7",
+        "annotation_uid": "763cc50c-edf6-4b99-98e2-5030a557784c",
+        "query": "How many cans were in the fridge?",
+        "ground_truth": "3 cans." 
+    },
+    {
+        "video_uid": "404cc1c1-f7a0-4e16-9a39-b8e2d5d9ae59",
+        "clip_uid": "1c597fc1-7bd0-4325-abbc-645e3ec71866",
+        "annotation_uid": "91c2e888-87a8-4611-af64-41daaf4b4cbd",
+        "query": "How many plates did i take from the top shelf?",
+        "ground_truth": "2 plates."
+    },
+    {
+        "video_uid": "413fe086-1745-4573-b75b-e7d26ff72df9",
+        "clip_uid": "75d3fc52-3776-47d4-b7fd-8074d30b06d1",
+        "annotation_uid": "03c107e5-72a9-43fc-903c-054bed516108",
+        "query": "What did I put in the dish?",
+        "ground_truth": "You put the soup in the dish"
+    },
+    {
+        "video_uid": "516c9abc-dbf3-4f87-b78e-db0ab9d657ea",
+        "clip_uid": "86c3b190-a57a-4b88-a3be-4d8d47c8d867",
+        "annotation_uid": "c3f7b345-d556-4c5f-8953-2f3cc537ba43",
+        "query": "where did  put the clothes before I hanged them",
+        "ground_truth": "You put the clothes on the couch before you hanged them"
+    },
+    {
+        "video_uid": "584f625d-15b0-49e8-bfa6-718b9cf010e0",
+        "clip_uid": "5726971c-b3cc-43ed-8071-f6ee143e417d",
+        "annotation_uid": "1a039f8c-10c1-4740-8fb4-f4e9120d533e",
+        "query": "What cloth did I wash?",
+        "ground_truth": "You washed your striped socks"
+    },
+    {
+        "video_uid": "702aa273-b108-4114-a3b6-a43a8386f06a",
+        "clip_uid": "2ed232bc-dc21-42d6-88be-d6ebe92f5b2a",
+        "annotation_uid": "914cf60a-415d-40a0-8e0d-e07078ce1b55",
+        "query": "Who did I interact with when I was walking out of the clothing store. ",
+        "ground_truth": "You interacted with a woman"
+    },
+    {
+        "video_uid": "1938c632-f575-49dd-8ae0-e48dbb467920",
+        "clip_uid": "7db32b15-9ea6-4a44-a103-cc04471ce4f7",
+        "annotation_uid": "987529da-48f9-41dc-a5f9-10bc3d8df8d6",
+        "query": "Where did I put the ham?",
+        "ground_truth": "In the fridge."
+    },
+    {
+        "video_uid": "4480f4ee-d218-41bd-8cdf-a7cbe13b61a0",
+        "clip_uid": "45d01186-d09a-408c-a00d-481a2d8d9749",
+        "annotation_uid": "e1c56ec0-9d21-4319-bb33-a774545bdd9e",
+        "query": "what napkin did I clean my hands with?",
+        "ground_truth": "You cleaned your hands with the blue napkin"
+    },
+    {
+        "video_uid": "86343e9e-b932-41d3-ad6f-83f2c2fe5486",
+        "clip_uid": "4ba774a8-cd2a-4889-9971-cc91f5c1afd4",
+        "annotation_uid": "c0d973f1-9c48-4268-bc4a-db8062199894",
+        "query": "Where was the egg before I picked it?",
+        "ground_truth": "The egg was in the fridge"
+    },
+    {
+        "video_uid": "115774b6-534d-444f-b7aa-d1b834eb0ee7",
+        "clip_uid": "58fa07ae-2992-4dc9-842a-e5a73ee3d345",
+        "annotation_uid": "1cf514d5-81b8-47b6-b378-d3efa5829592",
+        "query": "in what room did i see the tissue paper",
+        "ground_truth": "You saw the tissue paper in the kitchen"
+    },
+    {
+        "video_uid": "145881ef-5578-460d-bb5a-6fb80ef7d457",
+        "clip_uid": "eb9c6cc3-8192-4c28-96cd-df5ac1812e3e",
+        "annotation_uid": "b01f86ed-d874-4a3b-80c4-ec63ddc02263",
+        "query": "In what location did I last see the chair?",
+        "ground_truth": "you saw the chair near the kitchen door"
+    },
+    {
+        "video_uid": "571265e5-c7b7-4313-9386-fa8655b23706",
+        "clip_uid": "99db2a20-ae39-4df7-8a9c-908f282cd8d6",
+        "annotation_uid": "cfbbba0c-3855-4c15-aea3-2cec05a791d3",
+        "query": "Where was the plier before I picked it?",
+        "ground_truth": "The plier was in the drawer"
+    },
+    {
+        "video_uid": "38737402-19bd-4689-9e74-3af391b15feb",
+        "clip_uid": "93231c7e-1cf4-4a20-b1f8-9cc9428915b2",
+        "annotation_uid": "ca7e11a2-cd1e-40dd-9d2f-ea810ab6a99b",
+        "query": "who did I talk to in  the house?",
+        "ground_truth": "You talked to a man"
+    },
+    {
+        "video_uid": "ff6d3d52-dda5-46dd-8515-b9b772933030",
+        "clip_uid": "efc190a8-45de-4ce5-b480-b722403bcec1",
+        "annotation_uid": "fd276cad-7e93-453c-b232-13f86202465e",
+        "query": "did I wrap the cabbage?",
+        "ground_truth": "Yes you wrapped the cabbage"
+    },
+    {
+        "video_uid": "fbc425c4-def6-49a7-8b88-5d5d00b5524e",
+        "clip_uid": "51a81cd9-5534-47a1-8e53-cd7ab530aeb4",
+        "annotation_uid": "77275816-fd5d-4f1d-9653-d8629dfd5cb1",
+        "query": "When did I interacted with the cashier?",
+        "ground_truth": "To weight the vegetables"
+    },
+    {
+        "video_uid": "d13aa822-29de-428a-bdf4-f4d6ec4a22e0",
+        "clip_uid": "1cac2aa7-4f65-4a50-88b9-e1f6e5c927f8",
+        "annotation_uid": "33e038e2-2cc3-4774-83a0-f39b59b811f4",
+        "query": "What did I pick from the fridge?",
+        "ground_truth": "You picked a packet"
+    },
+    {
+        "video_uid": "b884e44c-07d8-426e-8356-1be4905c2675",
+        "clip_uid": "6b9efa86-2580-465b-89b9-877dbd18467c",
+        "annotation_uid": "a9246175-63d8-4587-b72a-fbb09eb92fb7",
+        "query": "What block of wood did I wipe?",
+        "ground_truth": "You wiped a square block"
+    },
+    {
+        "video_uid": "ee401f80-7732-4f67-a9bb-0c1e58b40b84",
+        "clip_uid": "584e542e-1968-4cb8-bd34-aebe80faffdf",
+        "annotation_uid": "364fcd89-9a8e-4208-aa75-8649f37d8534",
+        "query": "Did I wash the green pepper?",
+        "ground_truth": "Yes you did it"
+    },
+    {
+        "video_uid": "f6a0d8f5-468d-4e47-bfca-e7d13b75f26d",
+        "clip_uid": "81ad10fe-c74e-4359-8779-186f46680e2c",
+        "annotation_uid": "62c40b8f-fd95-43f9-9b00-cb253c0abc2c",
+        "query": "What did i pour into the steel bowl ?",
+        "ground_truth": "You poured sugar"
+    },
+    {
+        "video_uid": "fb7cc35d-3272-44a4-b8f2-15cd24fa345b",
+        "clip_uid": "ab094ea2-9251-4f10-945b-c2ab00c5282e",
+        "annotation_uid": "d2ba7cbc-d85e-43e2-8078-193aa9e99c24",
+        "query": "where did i put my phone?",
+        "ground_truth": "On the table"
+    },
+    {
+        "video_uid": "b737cd68-4e0d-440a-9813-a6c90080fac5",
+        "clip_uid": "ec4a3ba3-eb00-4aa8-9b41-36043ece98f7",
+        "annotation_uid": "920f36c3-97ee-4609-8d50-26ea0ce18ddc",
+        "query": "Where was the plate before I took it?",
+        "ground_truth": "The plate was in the cupboard"
+    },
+    {
+        "video_uid": "eb81442c-a322-49ea-b243-a39d2e288b9b",
+        "clip_uid": "3f268027-765d-4988-91d9-f0f948e6f9bc",
+        "annotation_uid": "3fd7062b-6dd8-4d73-a659-9d6a22353155",
+        "query": "In what location did I last see the car?",
+        "ground_truth": "On a dirt road near the tent"
+    },
+    {
+        "video_uid": "b8c58079-3314-46df-afee-766ac64ce1de",
+        "clip_uid": "3e97dd3f-40c3-46c2-8c95-334799eeda0c",
+        "annotation_uid": "1c1529ff-b8fb-43cb-b4de-79a9d4f9cdd0",
+        "query": "where was the nut before i picked it?",
+        "ground_truth": "Was on the mower"
+    },
+    {
+        "video_uid": "3534864b-2289-4aaf-b3ed-10eeeee7acd2",
+        "clip_uid": "bccc3bde-d9b2-4edb-9b1f-a3f42dd07b3e",
+        "annotation_uid": "1947bdf0-b455-4e1b-aefb-f952a834e4a5",
+        "query": "How many doughs did i apply egg on?",
+        "ground_truth": "You applied egg on 10 doughs"
+    },
+    {
+        "video_uid": "c0f702e1-d2e3-4277-8981-7177d106174a",
+        "clip_uid": "8bf16989-e870-44bb-863c-c6745e69f6fb",
+        "annotation_uid": "0bc1549b-fd67-4166-8ba2-4019975312af",
+        "query": "where was the spoon before I picked it?",
+        "ground_truth": "The spoon was in the honey jar"
+    },
+    {
+        "video_uid": "a743a90e-f46c-4e55-a94d-a7f11c771207",
+        "clip_uid": "751201ad-5397-4956-a4f2-d73fb969b6c5",
+        "annotation_uid": "2b090649-95f0-4e45-ac75-42d944582858",
+        "query": "What time was displayed on my phone screen?",
+        "ground_truth": "Was displayed 12:03"
+            
+    },
+    {
+        "video_uid": "9930414f-b998-4217-b6b5-aa686236fdf8",
+        "clip_uid": "c7873f07-7b9c-4794-9a56-fdebeeceee68",
+        "annotation_uid": "1a8ce90c-2273-495a-9366-52345df0f7d1",
+        "query": "Who did I talk to in the parking lot?",
+        "ground_truth": "You talked to a woman"
+    },
+    {
+        "video_uid": "c864505c-9d49-4da4-bf7e-254b4c348c03",
+        "clip_uid": "96453857-2454-418f-bbd6-3f5f8b3eadbd",
+        "annotation_uid": "bad8cc0e-a998-4c05-872d-347d5eb580c8",
+        "query": "What did I take from the fridge?",
+        "ground_truth": "You took bottle and a jerrycan"
+    },
+    {
+        "video_uid": "a850112c-68e3-45d7-9fc0-9ada21e970a4",
+        "clip_uid": "a3aea4be-3594-4372-98d7-cfbb9cc06170",
+        "annotation_uid": "a657d6dc-c63c-436a-9a68-ece04c4b4e99",
+        "query": "Who was with me when I adjusted the camera?",
+        "ground_truth": "A woman was with you"
+    },
+    {
+        "video_uid": "f681f510-cd33-48e3-bc10-4a8f2a518495",
+        "clip_uid": "b8654118-84a4-4167-83c9-f268cc15f7b2",
+        "annotation_uid": "633b4a69-98f3-4695-889c-28bda6a3a5fa",
+        "query": "What tool did I use on the machine first ",
+        "ground_truth": "You used a drill"
+    },
+    {
+        "video_uid": "f082242c-309f-48a1-97fa-5c1d6bd255fb",
+        "clip_uid": "5d531ac1-010a-4e67-ba1a-96e485b14968",
+        "annotation_uid": "3eb83361-fc41-4f9c-bb0c-978bebbf1175",
+        "query": "What vegetables did I chop? ",
+        "ground_truth": "You chopped broccoli"
+    },
+    {
+        "video_uid": "056db3f1-f957-46c8-b16b-c8fce22e78f9",
+        "clip_uid": "9a13aee2-0dca-49f8-968f-8f53c5a62963",
+        "annotation_uid": "1b042ebc-3cb1-4490-96be-01380347db27",
+        "query": "how many tissue paper were on the floor?",
+        "ground_truth": "There are 4 tissues."
+    },
+    {
+        "video_uid": "225a1ffe-3e7e-4ff8-a47e-2e80989077fe",
+        "clip_uid": "2c1724ce-f438-4d63-a699-8a7f65e3cbd9",
+        "annotation_uid": "21563a23-ca10-4165-8b6a-74c72d722f0a",
+        "query": "Where is phone",
+        "ground_truth": "The phone is on the shelf."
+    },
+    
+    {
+        "video_uid": "bd3a319e-0573-4802-a6d1-6d89910098e8",
+        "clip_uid": "a35ac9e4-bb20-460e-9c9d-67806ab9d13f",
+        "annotation_uid": "e93f1e16-136d-4e25-8b89-1fa3d6c2b74e",
+        "query": "How many bottles of coke was in the pack I took?",
+        "ground_truth": "6 bottles."
+    },
+    
+    {
+        "video_uid": "4335b0cc-e10c-45df-aad3-a1fa66b7a7a8",
+        "clip_uid": "56ee70c6-558b-4ca6-b8e4-d28be7c98517",
+        "annotation_uid": "38910a69-1952-485c-8763-7018951c1d5d",
+        "query": "what bottle did I pick?",
+        "ground_truth": "A bottle of water."
+    }
+]
