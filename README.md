@@ -1,4 +1,4 @@
-# Natural Language Query to Textual Answer in Egocentric Videos
+# From Egocentric Videos to Textual Answers: A Two-Stage Pipeline for NLQ-Based Video QA
 
 This repository contains the implementation and experiments for deriving textual responses to natural language queries in egocentric videos. The project focuses on evaluating models trained on the Ego4D Natural Language Queries (NLQ) benchmark and extends the task by generating textual answers using a two-step pipeline.
 
